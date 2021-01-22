@@ -4,4 +4,4 @@ function kilometerToMeter(kilometer){
 
 }
 
-kilometerToMeter(4);
+kilometerToMeter();
