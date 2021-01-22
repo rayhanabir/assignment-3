@@ -30,6 +30,23 @@ kilometerToMeter();
         return cost;
     }
     hotelCost();
+
+    //megaFriend
+
+    function megaFriend(friendsName){
+        var max = friendsName[0];
+        for(var i = 0; i<friendsName.length; i++){
+            var element = friendsName[i];
+            if(element.length > max.length){
+                max = element;
+            }
+        }
+        return max;
+    }
+    megaFriend();
+    
+    
+
    
     
 
