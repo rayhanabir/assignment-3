@@ -29,7 +29,7 @@ kilometerToMeter();
         }
         return cost;
     }
-    hotelCost(22);
+    hotelCost();
    
     
 
