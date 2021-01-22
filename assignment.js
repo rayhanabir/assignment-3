@@ -44,7 +44,14 @@ kilometerToMeter();
         return max;
     }
     megaFriend();
+
+    //budgetCalculator
+    //watch mobile calculator 
     
+    var a =10;
+    var b= 20;
+  
+    console.log(a+b);
     
 
    
