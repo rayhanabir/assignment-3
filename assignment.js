@@ -33,25 +33,38 @@ kilometerToMeter();
 
     //megaFriend
 
-    function megaFriend(friendsName){
-        var max = friendsName[0];
-        for(var i = 0; i<friendsName.length; i++){
-            var element = friendsName[i];
-            if(element.length > max.length){
-                max = element;
-            }
-        }
-        return max;
-    }
-    megaFriend();
+     function megaFriend(friendsName){
+         var max = friendsName[0];
+         for(var i = 0; i<friendsName.length; i++){
+             var element = friendsName[i];
+             if(element.length > max.length){
+                 max = element;
+             }
+         }
+         return max;
+     }
+     megaFriend();
 
     //budgetCalculator
-    //watch mobile calculator 
+     
     
-    var a =10;
-    var b= 20;
-  
-    console.log(a+b);
+function budgetCalculator (watch, mobile, laptop){
+    var watchPrice = watch*50;
+    var mobilePrice = mobile*100;
+    var laptopPrice = laptop*500;
+
+    totalBill= watchPrice+mobilePrice+laptopPrice;
+   
+    return totalBill;
+}
+    budgetCalculator ();
+    
+
+
+
+
+
+
     
 
    
